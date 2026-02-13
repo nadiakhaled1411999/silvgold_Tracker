@@ -1,4 +1,4 @@
- import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:slivgold_tracker/features/gold_feature/data/repo/gold_repo.dart';
 import 'package:slivgold_tracker/features/gold_feature/persentation/cubit/gold_cubit.dart';
