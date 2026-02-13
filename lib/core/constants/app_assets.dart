@@ -14,7 +14,7 @@ class AppAssets with PngAssets, SvgAssets, VideoAssets {
   // Image PNG
 //   static const String adsImage = "${PngAssets.pngAssets}ads.png";
 
-
+static const String goldImage = "${PngAssets.pngAssets}b.png";
 
 
   // Icons SVG
@@ -23,7 +23,7 @@ class AppAssets with PngAssets, SvgAssets, VideoAssets {
 
 
 
- 
+
 // Video Assets
 //   static const String testOnBoardingVideo =
 //       "${VideoAssets.videoAssets}test.mp4";
