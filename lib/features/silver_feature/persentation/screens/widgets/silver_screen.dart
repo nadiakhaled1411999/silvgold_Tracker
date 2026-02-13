@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:slivgold_tracker/core/constants/app_assets.dart';
+import 'package:slivgold_tracker/core/constants/app_strings.dart';
 import 'package:slivgold_tracker/core/helpers/spacing.dart';
 import 'package:slivgold_tracker/core/theming/app_colors.dart';
 import 'package:slivgold_tracker/core/theming/styles.dart';
@@ -22,13 +23,11 @@ class SilverScreen extends StatelessWidget {
           backgroundColor: Colors.transparent,
           elevation: 0,
           centerTitle: true,
-          title: const Text(
-            "Silver Tracker",
-            style: TextStyle(
-                fontSize: 22,
-                fontWeight: FontWeight.w800,
-                color: AppColors.silverColor,
-                letterSpacing: 1.2),
+          title: Text(
+            AppStrings.silverTracker,
+            style: AppStyles.getBoldStyle(
+              color: AppColors.silverColor,
+            ),
           ),
         ),
         body: BlocBuilder<SilverCubit, SilverStates>(
@@ -62,12 +61,12 @@ class SilverScreen extends StatelessWidget {
                           style: AppStyles.getSemiBoldStyle(
                               color: AppColors.silverColor)),
                       horizontalSpace(8),
-                      Text("Egp",
+                      Text(AppStrings.egp,
                           style: AppStyles.getMediumStyle(
                               fontSize: 18, color: AppColors.silverColor)),
                     ],
                   ),
-                  Text("Live Market Price",
+                  Text(AppStrings.liveMarketPrice,
                       style: AppStyles.getMediumStyle(
                         color: Colors.white.withOpacity(0.5),
                         fontSize: 12,
