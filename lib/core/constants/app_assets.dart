@@ -14,15 +14,11 @@ class AppAssets with PngAssets, SvgAssets, VideoAssets {
   // Image PNG
 //   static const String adsImage = "${PngAssets.pngAssets}ads.png";
 
-static const String goldImage = "${PngAssets.pngAssets}b.png";
-
+  static const String goldImage = "${PngAssets.pngAssets}b.png";
+  static const String silverImage = "${PngAssets.pngAssets}silver.png";
 
   // Icons SVG
 //   static const String carSolidIcon = "${SvgAssets.svgAssets}car_solid.svg";
-
-
-
-
 
 // Video Assets
 //   static const String testOnBoardingVideo =

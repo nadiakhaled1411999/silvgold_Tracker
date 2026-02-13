@@ -32,7 +32,9 @@ class HomeScreen extends StatelessWidget {
                 backgroundColor: AppColors.silverColor,
                 buttonWidth: 0.5.sw,
                 textStyle: AppStyles.getMediumStyle(),
-                onPressed: () {})
+                onPressed: () {
+                  Navigator.pushNamed(context, Routes.silverScreen);
+                })
           ],
         ),
       ),

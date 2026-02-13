@@ -1,4 +1,5 @@
 
+
 import 'route_export.dart';
 class SilvGoldTrackerAppRouter {
   Route? generateRoute(RouteSettings settings) {
@@ -7,6 +8,8 @@ class SilvGoldTrackerAppRouter {
         return MaterialPageRoute(builder: (context) => const HomeScreen());
       case Routes.goldScreen:
         return MaterialPageRoute(builder: (context) => const GoldScreen());
+          case Routes.silverScreen:
+        return MaterialPageRoute(builder: (context) => const SilverScreen());
       default:
         return MaterialPageRoute(
           builder: (context) => Scaffold(
